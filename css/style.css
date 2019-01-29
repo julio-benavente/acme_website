@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Arsenal');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  font-family: 'Arsenal', sans-serif;
+  font-size: 18px;
+}
+
+
+header {
+  padding: auto;
+  display: flex;
+  height: 14vh;
+  align-items: center;
+  /* padding: 0 70px; */
+  background: #35424a;
+  border-bottom: 3px solid #e8491d;
+}
+
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 2;
+  color: #fff;
+  padding: 0 0 0 70px;
+}
+
+
+.logo span {
+  color: #e8491d;
+}
+
+
+nav {
+  display: flex;
+  text-transform: uppercase;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
+  padding: 0 70px 0 0;
+}
+
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+
+}
+
+
+nav ul li a.current {
+  color: #e8491d;
+}
+
+
+nav ul li a:hover {
+  font-weight: bold;
+}
+
+
+#showcase {
+  background: url(../img/showcase.jpg) center ;
+  height: 400px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 0 12vw;
+  text-align: center;
+}
+
+
+#showcase h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+
+#newsletter {
+  display: flex;
+  height: 13vh;
+  background: #35424a;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 70px;
+}
+
+
+#newsletter .invitation {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 0 0 0 50px;
+  color: #fff;
+  flex-grow: 1;
+}
+
+
+#newsletter form {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+
+#newsletter form input[type="text"] {
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  height: 70px;
+}
+
+
+#newsletter form input[type="email"] {
+  font-size: .7rem;
+  padding: 3px 6px;
+  margin: 0 2px;
+  height: 40px;
+}
+
+
+#newsletter form input[type=submit] {
+  font-size: .7rem;
+  margin: 0 2px;
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  background: #e8491d;
+  border: none;
+  color: #fff;
+  justify-content: center;
+}
+
+
+#boxes {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+
+#boxes .box {
+  display: flex;
+  flex-basis: 25%;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 0 0;
+}
+
+
+#boxes .box  img {
+  width: 100px;
+}
+
+
+#boxes .box  p {
+  text-align: center;
+}
+
+
+footer {
+  display: flex;
+  background: #e8491d;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 13vh;
+}
+
+
+.main {
+  display: flex;
+  margin: 30px auto;
+  width: 90%;
+  justify-content: space-between;
+}
+
+
+.main .section {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60%;
+}
+
+
+.main aside {
+  flex-basis: 35%;
+  align-self: flex-start;
+}
+
+
+.dark {
+  color: #fff;
+  padding: 15px 15px;
+  background: #35424a;
+}
+
+
+.central {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+
+.cards {
+  flex-grow: 1
+  width: 65%;
+  margin: 30px;
+}
+
+
+.central div .card {
+  padding: 40px 20px;
+  background: #e6e6e6;
+  margin: 0 0 5px 0;
+  border: 1px solid #cccccc;
+}
+
+
+.central aside.quote.dark{
+  margin: 30px;
+  flex-basis: 30%;
+  flex-grow: 1;
+  overflow: hidden;
+  padding:: auto 10px;
+  align-self: flex-start;
+}
+
+
+aside.quote.dark input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+
+aside.quote.dark input[type="text"], input[type="email"] {
+  height: 30px;
+}
+
+
+aside.quote.dark input[type="submit"] {
+  color: #fff;
+  background: #e8491d;
+  width: 100px;
+  height: 40px;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*  */
